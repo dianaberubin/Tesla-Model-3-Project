@@ -1,0 +1,468 @@
+@font-face{
+    src: url(fonts/Gotham\ Medium.otf);
+    font-family: "Gotham Book";
+}
+
+
+/* 
+top: 0;
+  left: 50%;
+*/
+
+
+/* General */
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.clrW{
+    color: white;
+}
+
+.contact-right{
+    float: right;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+
+.label-decoration{
+    font-size: 12px;
+    color: #74767A;
+    margin: 0 4px;
+
+}
+
+.tesla-img{
+    padding: 15px;
+    width: 110px;
+    height: 30px;
+}
+
+
+h1,h2{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 400;
+}
+
+
+.left-title{
+    margin-bottom: 20px;
+}
+
+.left-title h2{
+    font-size:17px;
+    color: #6E7074 ;
+}
+
+.left-title h1{
+    font-size:28px;
+}
+
+
+.border_both{
+    border-left:1px solid white;
+    border-right:1px solid white
+}
+
+.box{
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    max-width: 280px;
+}
+
+.box h2{
+    /* font-family: 500; */
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 2px;
+}
+.box p{
+    color: #ece8e8;
+    font-weight:400;
+    font-size: 12px;
+    line-height:18px;
+}
+
+.box-descritpions{
+    position: absolute;
+    width: 1100px;
+    bottom: 85px;
+    left: 14%;
+}
+
+
+
+.plus-button{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    padding:5px 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.plus-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.order-now-btn{
+    border-radius: 50px;
+    margin-left: 5px;
+    padding:10px 25px;
+    line-height:14.4px;
+    font-weight:bold;
+    background-color: Transparent;
+}
+
+
+.order-now-btn-white{
+    color: white;
+    border: 3px solid white;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.order-now-btn-white:hover{
+    color: rgb(75, 66, 66);
+    background-color: white;
+    font-weight: 400;
+}
+
+
+.order-now-btn-black{
+    color: #5C5F63;
+    border: 3px solid black;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.order-now-btn-black:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.arrow {
+    margin-top: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    /* padding: 3px; */
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+
+  .bg-up{
+    height: 70vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;   
+}
+
+.bg-low{   
+    height: 30vh;
+    background-color: white;
+}
+
+
+.low-content{
+    width: 975px;
+    margin: auto;
+}
+
+  .wrapper{
+      position: relative;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  
+
+/* Page 1 Navbar */
+
+#page1-bg{
+    background-image: url('../img/model-3-main-hero-a-desktop.jfif');
+}
+#page2-bg{
+    background-image: url('../img/model-3-hero-a-desktop.jfif');
+    width: 100%;
+    position: relative;
+    /* text-align: right; */
+    
+}
+
+
+
+#Navbar-content{
+    padding: 2px;
+}
+
+#Navbar-content .main-logo img{
+    position: relative;
+    top: 8px;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    float: left;
+    
+}
+
+.main-logo{
+    position: relative;
+    margin-top: 15px;
+    width: 25%;
+}
+
+.link_List{ 
+    font-size: 15px;   
+    text-align: center;
+    width: 90%;
+    float: right;
+}
+
+.link_List li{
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: inline;
+    padding: 10px;
+}
+
+.link_List a{
+    
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Page1 */
+
+#page-1-content {
+    /* position: relative; */
+    text-align: center;
+    /* height:90vh */
+}
+
+#page-1-content h1{
+    font-size: 40px;
+    padding-top: 50px;
+    color: white
+}
+
+.car-info{
+    position: relative;
+    right: 0px;
+    margin-top: 410px;
+}
+
+
+.car-info button{
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+.down-page-arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
+.message-icon{
+    font-size: 30px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* page2 */
+
+
+
+.logo-nav{
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+}
+
+
+#page2-bg i{
+    position: relative;
+    right: 20px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    width: 15px; height: 15px;
+
+}
+
+
+
+.page2-container{
+    position: relative;
+    background-color: white;
+    width: 25%;
+    float:right;
+}
+
+
+
+
+.page2-container-content{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* .page5-container-content{
+   float:right; 
+    width: 29%;
+    
+} */
+
+ /* .page5-container-content-upper h2{
+    font-family: "Gotham Light";
+    color:rgb(87, 92, 102);
+    font-size:20px;
+    line-height:17px;
+} */
+ /* .page5-container-content-upper h1{
+    font-weight:500;
+    color:rgb(23, 26, 32);
+    font-size:28px;
+    line-height:36px;
+}
+ .page5-container-content-upper p{
+    font-weight:200; 
+    font-size: 14px;
+    font-family: "Gotham Book";
+    padding-top: 16px;
+    color:#626268;
+    line-height:21px;
+    margin-bottom: 26px
+} */
+
+
+
+
+.page2-container-content .page2-container-content-upper h2{
+    font-family: "Gotham Light";
+    color:rgb(87, 92, 102);
+    font-size:20px;
+    line-height:17px;
+}
+
+.page2-container-content .page2-container-content-upper h1{
+    font-weight:500;
+    color:rgb(23, 26, 32);
+    font-size:28px;
+    line-height:36px;
+}
+.page2-container-content .page2-container-content-upper p{
+    /* font-weight:200; */
+    font-size: 14px;
+    font-family: "Gotham Book";
+    padding-top: 16px;
+    color:#626268;
+    line-height:21px;
+    margin-bottom: 26px
+}
+
+ .page2-container-content  {
+   max-width:319px;
+    height: 250px;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+
+
+.page2-container-content .page2-down-title{
+
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+.page2-container-content  .page2-down-title h2{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.page2-container-content  .page2-list-title{
+    float: right; /**/
+}
+
+.page2-container-content .page2-list-title h4{
+    color:#393c41;
+}
+
+.page2-container-content .page2-list-rating{
+   text-align: right;
+}
+.page2-order{
+    position: absolute;
+    bottom: 40px;
+}
+
+/* page  3*/
+
+.page3-bg-upper{
+    height: 25vh;
+    background-color: #F4F4F4;
+}
+
+.page3-bg-up{
+    background-image: url('../img/lhd-performance-hero-desktop.jfif');
+}
+
+
+.page3-content-low-left{
+    padding: 40px 35px;
+    float: left;
+}
+.content-low-left{
+    padding: 40px 35px;
+    float: left;
+}
+
+
+.page3-content-low-right{
+    padding: 45px 45px;
+}
+
+
+.page3-content-low-right p{
+    font-size:14px;
+    line-height:21px;
+    color: #959799;
+    text-decoration:none solid rgb(57, 60, 65)
+}
+
